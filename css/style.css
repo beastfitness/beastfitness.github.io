@@ -608,11 +608,9 @@ figure {
   background-color: #555;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
   background-repeat: no-repeat;
 }
 .fh5co-parallax .overlay {
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
