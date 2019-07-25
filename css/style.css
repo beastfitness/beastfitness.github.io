@@ -1277,8 +1277,8 @@ figure {
   margin: 0 auto;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
+@media screen and (max-width: 767px) {
+  .fh5co-nav-toggle i {
     display: block;
     top: 0px;
   }
