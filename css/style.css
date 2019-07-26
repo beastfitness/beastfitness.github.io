@@ -31,14 +31,14 @@ a:hover {
 }
 
 p, ul, ol {
-  margin-bottom: 1.5em;
-  font-size: 20px;
-  color: #848484;
-  font-family: "Roboto", Arial, sans-serif;
+    margin-bottom: 1.5em;
+    font-size: 20px;
+    /* [disabled]color: #212121; */
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #212121;
+    color: #363636;
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 400;
     margin: 0 0 30px 0;
@@ -497,11 +497,13 @@ figure {
   margin-bottom: 4em;
 }
 .heading-section h2 {
-  font-size: 24px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  position: relative;
-  font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 900;
+    color: #3D3D3D;
+    ;
 }
 
 .program {
@@ -544,14 +546,14 @@ figure {
 }
 
 .schedule {
-  padding: 0;
-  margin: 0 0 40px 0;
+    padding: 0;
+    margin: 0 0 40px 0;
 }
 .schedule li {
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  font-size: 16px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    font-size: 16px;
 }
 .schedule li a {
   color: rgba(0, 0, 0, 0.5);
@@ -559,7 +561,8 @@ figure {
   cursor: pointer;
 }
 .schedule li a:active, .schedule li a:focus {
-  text-decoration: none;
+    text-decoration: none;
+    color: #212121;
 }
 .schedule li a.active {
   background: #4CB648;
@@ -602,13 +605,11 @@ figure {
 }
 
 .fh5co-parallax {
-  background-color: #555;
+  background-image: url("../images/bg2.jpg");
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
 }
 .fh5co-parallax .overlay {
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
