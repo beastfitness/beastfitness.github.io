@@ -743,11 +743,11 @@ figure {
 }
 
 .team-section-grid {
-  position: relative;
-  background-size: cover;
-  height: 450px;
-  margin-bottom: 30px;
-  overflow: hidden;
+    position: relative;
+    background-size: cover;
+    height: 423px;
+    margin-bottom: 30px;
+    overflow: hidden;
 }
 .team-section-grid .overlay-section {
   position: absolute;
@@ -791,8 +791,12 @@ figure {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 30px;
-    top: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    top: 20px;
 }
 .team-section-grid:hover .overlay-section {
   bottom: 0;
