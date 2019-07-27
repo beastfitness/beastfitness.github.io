@@ -32,8 +32,8 @@ progress,
 video {
     display: inline-block;
     vertical-align: baseline;
-    width: 209px;
-    height: 163px;
+    width: 440px;
+    height: 458px;
 }
 
 audio:not([controls]) {
@@ -1952,7 +1952,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1155px;
   }
 }
 
@@ -1971,8 +1971,10 @@ pre code {
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+    margin-top: 14px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 50px;
 }
 .row:before, .row:after {
   content: " ";
@@ -2433,10 +2435,12 @@ pre code {
 
   .col-md-6 {
     width: 50%;
+	  display: flex;
+	  flex-direction: column;
   }
 
   .col-md-7 {
-    width: 45.333%;
+    width: 43.333%;
   }
 
   .col-md-8 {

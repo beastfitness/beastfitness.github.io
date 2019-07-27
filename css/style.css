@@ -72,8 +72,8 @@ figure {
 
 .fh5co-cover,
 .fh5co-hero {
-  position: relative;
-  height: 800px;
+    position: relative;
+    height: 465px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -136,12 +136,12 @@ figure {
   }
 }
 .fh5co-cover .desc {
-  top: 50%;
-  position: absolute;
-  width: 100%;
-  margin-top: -100px;
-  z-index: 2;
-  color: #fff;
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    margin-top: -123px;
+    z-index: 2;
+    color: #fff;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc {
@@ -883,7 +883,8 @@ figure {
   }
 }
 .fh5co-blog .desc {
-  padding-left: 230px;
+    padding-left: 230px;
+    top: 50%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .desc {
@@ -982,8 +983,11 @@ figure {
 }
 
 #footer {
-  background: #222831;
-  padding: 60px 0 40px;
+    background: #222831;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0px;
 }
 #footer .section-title {
   color: rgba(255, 255, 255, 0.8);
@@ -1109,8 +1113,8 @@ figure {
 }
 
 #fh5co-wrapper {
-  overflow-x: hidden;
-  position: relative;
+    overflow-x: hidden;
+    position: relative;
 }
 
 .fh5co-offcanvas {
@@ -1121,10 +1125,10 @@ figure {
 }
 
 #fh5co-page {
-  position: relative;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 .fh5co-offcanvas #fh5co-page {
   -moz-transform: translateX(-240px);
